@@ -8,7 +8,7 @@ export abstract class Persona{
         return(`${this.nome.charAt(0).toLowerCase }${this.cognome.toLowerCase()}@${Dominio}.com`);
     }
 
-    get Dati(){
+    getDati(){
         return (`Identificativo ${this.id}\n Nominativo:${this.nome} ${this.cognome}`);
     }
 
@@ -22,4 +22,4 @@ export abstract class Persona{
        return eta;
     }
     
-}
+} 
